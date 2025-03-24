@@ -1,0 +1,59 @@
+.homeHead {
+    text-align: center;
+    font-size: 65px;
+    color: rgb(192, 55, 55);
+    margin-left: 500px;
+    font-weight: bolder;
+    margin-top: 2px;
+
+}
+
+.logo {
+    width: 8%;
+    height: 8%;
+    margin-left: 20px;
+    padding-bottom: 41px;
+}
+
+.new {
+    text-align: center;
+    font-size: 30px;
+    margin-right: 280px;
+}
+
+.allS {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: rgb(223, 69, 69);
+    margin-right: 360px;
+}
+
+.p1 {
+    width: 20%;
+    height: 30%;
+    margin-left: 435px;
+    margin-bottom: 80px;
+
+}
+
+.p2 {
+    width: 14%;
+    height: 30%;
+    margin-bottom: 80px;
+}
+
+.p3 {
+    width: 20%;
+    height: 30%;
+    margin-bottom: 80px;
+}
+
+.homeLogo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 70px;
+}

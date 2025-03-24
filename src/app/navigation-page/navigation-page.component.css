@@ -1,0 +1,40 @@
+/* .sidenav-container {
+  /* height: 22%; */
+
+
+.sidenav {
+  width: 200px;
+  background-color: rgb(202, 76, 101);
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.menu {
+  font-size: 25px;
+  margin-top: 100px;
+  margin-left: 42px;
+}
+
+.home {
+  margin-left: 40px;
+  margin-top: 110px;
+  font-size: 25px;
+}
+
+.about {
+  margin-left: 40px;
+  font-size: 25px;
+}
+
+.products {
+  margin-left: 40px;
+  font-size: 25px;
+}

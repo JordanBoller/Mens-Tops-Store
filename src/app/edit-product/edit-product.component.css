@@ -1,0 +1,14 @@
+.editPgForm {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: crimson;
+    padding-top: 80px;
+    padding-left: 200px;
+}
+
+.editBTN {
+    color: rgb(216, 34, 34);
+    font-weight: bolder;
+    font-size: 30px;
+}

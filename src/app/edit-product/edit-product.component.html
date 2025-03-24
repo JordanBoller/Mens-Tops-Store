@@ -1,0 +1,19 @@
+<form class="editPgForm" #form="ngForm" (ngSubmit)="onSubmit()">
+  <h1>Edit Top</h1>
+  <label>Top Name </label>
+  <input type="text" name="name" [(ngModel)]="currentTop.itemName"><br><br>
+
+  <label>Description </label>
+  <input type="text" name="description" [(ngModel)]="currentTop.description"><br><br>
+
+  <label>Price </label>
+  <input type="text" name="price" [(ngModel)]="currentTop.price"><br><br>
+
+  <label>Picture </label>
+  <input type="text" name="picture" [(ngModel)]="currentTop.imageUrl"><br><br>
+
+  <label>All Season(True or False) </label>
+  <input type="text" name="boolean" [(ngModel)]="currentTop.allSeason"><br><br><br>
+
+  <button routerLink="/products" class="editBTN" type="submit">Edit Top!</button>
+</form>

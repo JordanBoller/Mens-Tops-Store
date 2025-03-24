@@ -1,0 +1,85 @@
+<a href routerLink="/add"><button class="addButton">Create A New Top!</button></a>
+
+<label class="find">Search Tops <input href=" http://localhost:3000/Tops?q=" ><span class="material-symbols-outlined">
+  search
+  </span></label>
+
+ <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" >
+
+<mat-card class="top1">
+  <mat-card-header>
+    <!-- <div mat-card-avatar class="example-header-image"></div> -->
+    <mat-card-title>All Season Top</mat-card-title>
+
+  </mat-card-header>
+  <img mat-card-image
+    src="https://cdna.lystit.com/photos/0a09-2014/04/19/sunspel-white-long-sleeve-crew-neck-t-shirt-product-1-19365541-3-335841352-normal.jpeg"
+    alt="Photo of an all season">
+  <!-- <mat-card-content> -->
+  <p>
+
+    $40
+  </p>
+  <!-- </mat-card-content> -->
+  <mat-card-actions>
+    <button routerLink="/products/id" mat-button><b>View</b></button>
+    <button routerLink="/edit/:id" mat-button><b>Edit</b></button>
+    <button mat-button><b>Delete</b></button>
+  </mat-card-actions>
+</mat-card>
+
+
+
+
+
+
+<mat-card class="top2">
+  <mat-card-header>
+    <!-- <div mat-card-avatar class="example-header-image"></div> -->
+    <mat-card-title>Summer Shortsleeves</mat-card-title>
+
+  </mat-card-header>
+  <img mat-card-image src="https://lh.cwa.sellercloud.com/images/products/2082513.jpg"
+    alt="Photo of a summer shortsleeve">
+  <!-- <mat-card-content> -->
+  <p>
+
+    $27.99
+  </p>
+  <!-- </mat-card-content> -->
+  <mat-card-actions>
+    <button routerLink="/products/id" mat-button><b>View</b></button>
+    <button routerLink="/edit/:id" mat-button><b>Edit</b></button>
+    <button mat-button><b>Delete</b></button>
+  </mat-card-actions>
+</mat-card>
+
+
+
+
+
+<mat-card class="top3">
+  <mat-card-header>
+    <!-- <div mat-card-avatar class="example-header-image"></div> -->
+    <mat-card-title>Winter Shirt</mat-card-title>
+
+  </mat-card-header>
+  <img mat-card-image src="https://www.ecustomwear.com/product-image/big/8622_9k.jpg" alt="Photo of a wintter shirt">
+  <!-- <mat-card-content> -->
+  <p>
+
+    $27.99
+  </p>
+  <!-- </mat-card-content> -->
+  <mat-card-actions>
+    <button routerLink="/products/id" mat-button><b>View</b></button>
+    <button routerLink="/edit/:id" mat-button><b>Edit</b></button>
+    <button mat-button><b>Delete</b></button>
+  </mat-card-actions>
+</mat-card>
+
+<!-- <ul>
+  <li *ngFor="let top of topsList">
+    <a [routerLink] = '["/products"]'>{{topsList."itemName"}}</a>
+  </li>
+</ul> -->

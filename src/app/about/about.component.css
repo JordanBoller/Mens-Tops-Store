@@ -1,0 +1,36 @@
+.head {
+
+    margin-left: 150px;
+    color: rgb(192, 53, 53);
+    font-weight: bold;
+
+
+}
+
+.para {
+
+    margin-left: 100px;
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+.pic {
+    height: 90%;
+    width: 40%;
+    padding-left: 80px;
+
+
+}
+
+.homeDiv {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 85px;
+    margin-top: 200px;
+}

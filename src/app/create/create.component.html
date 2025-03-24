@@ -1,0 +1,19 @@
+<form class="detailsForm" #form="ngForm" (ngSubmit)="onSubmit()">
+    <p class="tHead">Create A New Top</p>
+    <label>Top Name 
+    <input type="text" name="Tname" [(ngModel)]="newTop.itemName"></label><br><br><br>
+
+    <label>Description 
+    <input type="text" name="description" [(ngModel)]="newTop.description"></label><br><br><br>
+
+    <label>Price 
+    <input type="text" name="price" [(ngModel)]="newTop.price"></label><br><br><br>
+
+    <label>Picture URL 
+    <input type="text" name="picture" [(ngModel)]="newTop.imageUrl"></label><br><br><br>
+
+    <label>All Season(True or False) 
+    <input type="text" name="price" [(ngModel)]="newTop.allSeason"></label><br><br><br>
+
+    <button routerLink="/products" class="btn" type="button"> CREATE!</button>
+</form>

@@ -1,0 +1,31 @@
+{
+  "Tops": [
+    {
+      "id": 1,
+      "itemName": "All Season Top",
+      "description": "A true longsleave shirt made with adaptive cooling and warming cotton",
+      "allSeason": true,
+      "price": 40,
+      "imageUrl": "https://cdna.lystit.com/photos/0a09-2014/04/19/sunspel-white-long-sleeve-crew-neck-t-shirt-product-1-19365541-3-335841352-normal.jpeg"
+    },
+    {
+      "id": 2,
+      "itemName": "Summer Shortsleave",
+      "description": "A light genuine summer shirt with advanced cooling technology",
+      "allSeason": false,
+      "price": 27.99,
+      "imageUrl": "https://lh.cwa.sellercloud.com/images/products/2082513.jpg"
+    },
+    {
+      "id": 3,
+      "itemName": "Winter Shirt",
+      "description": "A tough longsleave shirt with enhanced thermal-down technology",
+      "allSeason": false,
+      "price": 27.99,
+      "imageUrl": "https://www.ecustomwear.com/product-image/big/8622_9k.jpg"
+    },
+    {
+      "id": 4
+    }
+  ]
+}
