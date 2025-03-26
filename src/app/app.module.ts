@@ -21,40 +21,29 @@ import { CreateComponent } from './create/create.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { EditProductComponent } from './edit-product/edit-product.component';
 import { FormsModule } from '@angular/forms';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { Tops } from './models/tops';
-@NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    AboutComponent,
-    ProductsComponent,
-    NavigationPageComponent,
-    DashboardComponent,
-    CreateComponent,
-    ProductDetailsComponent,
-    EditProductComponent,
-    
-    
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule,
-    MatGridListModule,
-    MatCardModule,
-    MatMenuModule,
-    FormsModule,
-    HttpClientModule,
-    
-    
-  ],
-  providers: [HttpClient,Tops],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        HomeComponent,
+        AboutComponent,
+        ProductsComponent,
+        NavigationPageComponent,
+        DashboardComponent,
+        CreateComponent,
+        ProductDetailsComponent,
+        EditProductComponent,
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatButtonModule,
+        MatSidenavModule,
+        MatIconModule,
+        MatListModule,
+        MatGridListModule,
+        MatCardModule,
+        MatMenuModule,
+        FormsModule], providers: [HttpClient, Tops, provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
