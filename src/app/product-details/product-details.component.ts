@@ -4,9 +4,10 @@ import { ActivatedRoute } from '@angular/router';
 import { Tops } from '../models/tops';
 
 @Component({
-  selector: 'app-product-details',
-  templateUrl: './product-details.component.html',
-  styleUrls: ['./product-details.component.css']
+    selector: 'app-product-details',
+    templateUrl: './product-details.component.html',
+    styleUrls: ['./product-details.component.css'],
+    standalone: false
 })
 export class ProductDetailsComponent implements OnInit {
   id: number = 0;

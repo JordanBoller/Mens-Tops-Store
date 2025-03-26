@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-create',
-  templateUrl: './create.component.html',
-  styleUrls: ['./create.component.css']
+    selector: 'app-create',
+    templateUrl: './create.component.html',
+    styleUrls: ['./create.component.css'],
+    standalone: false
 })
 export class CreateComponent implements OnInit {
 

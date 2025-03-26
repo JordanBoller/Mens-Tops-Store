@@ -5,9 +5,10 @@ import { map, shareReplay } from 'rxjs/operators';
 import { AsyncPipe, NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-navigation-page',
-  templateUrl: './navigation-page.component.html',
-  styleUrls: ['./navigation-page.component.css']
+    selector: 'app-navigation-page',
+    templateUrl: './navigation-page.component.html',
+    styleUrls: ['./navigation-page.component.css'],
+    standalone: false
 })
 export class NavigationPageComponent {
   private breakpointObserver = inject(BreakpointObserver);

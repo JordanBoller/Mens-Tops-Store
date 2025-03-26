@@ -4,9 +4,10 @@ import { Tops } from '../models/tops';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-edit-product',
-  templateUrl: './edit-product.component.html',
-  styleUrls: ['./edit-product.component.css']
+    selector: 'app-edit-product',
+    templateUrl: './edit-product.component.html',
+    styleUrls: ['./edit-product.component.css'],
+    standalone: false
 })
 export class EditProductComponent implements OnInit {
   id: number = 0;
